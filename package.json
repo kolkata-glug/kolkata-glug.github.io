@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "npx sass sass/style.sass:styles/index.css --watch"
+  },
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
