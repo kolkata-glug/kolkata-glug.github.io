@@ -24,8 +24,27 @@ body {
   justify-content: center;
 }
 
+a {
+  text-decoration: none;
+  color: #ff951b;
+  transition: all 0.1s linear;
+}
+a:hover {
+  text-shadow: 0px 0px 5px #ffad4e;
+}
+a:visited {
+  color: #ff951b;
+}
+a:active {
+  color: #ff0000;
+}
+
 main {
   width: 1300px;
+}
+
+hr {
+  color: #919191;
 }
 
 h1 {
@@ -53,6 +72,23 @@ h1 {
   content: "💡";
   font-style: normal;
   font-size: 1.6rem;
+}
+
+@media screen and (max-width: 767px) {
+  main {
+    width: 100%;
+  }
+  hr {
+    width: 95%;
+    display: block;
+    margin: auto;
+  }
+  #socials {
+    width: 90%;
+    padding: 2rem 1rem;
+    font-size: 1.2rem;
+    overflow-y: scroll;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
