@@ -31,7 +31,8 @@ a {
   transition: all 0.1s linear;
 }
 a:hover {
-  text-shadow: 0px 0px 5px #ffad4e;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 a:visited {
   color: #ff951b;
